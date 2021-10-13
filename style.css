@@ -39,7 +39,6 @@ html{
     height: 80px;
     background:  url(kotyra.png);
     float:  left;
-    /*padding-right: 20px;*/
     margin: 10px;
 }
 
@@ -66,9 +65,11 @@ body{
     margin-bottom: 50px;
     order:2;
 }
+
   form{
     margin-left: 10px;
   }
+
 
 .block_tabl
 {
@@ -80,14 +81,17 @@ body{
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 50px;
-    /*padding-left:5px;
-    padding-right:5px;*/
+    padding-left:5px;
+    padding-right:5px;
+
     order:3;
 }
+
 .top_bot{
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 .block_ss
 {
 	background: #FFE4E1; /* Цвет фона */ 
@@ -98,15 +102,16 @@ body{
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 50px;
+
 }
 .block_ss ol{
     margin-left: 30px;
 }
 
+
 h1{color:#DB7093;}
 h2{color:#DB7093;}
-a{
-    
+a{   
     color: rgb(51, 3, 63);
     text-decoration: none;
 }
@@ -152,9 +157,9 @@ ul{
 }
 
 .menu{
-    margin: 15px 15px 30px 15px; 
+
+	margin: 15px 15px 30px 15px; 
     padding-top: 5px;
-    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -163,9 +168,9 @@ ul{
 }
 .menu ul {
     list-style: none; /*убираем маркеры списка*/
-  margin: 0; /*убираем отступы*/*/
-  padding-left: 0; /*убираем отступы*/
-  margin-top:25px; /*делаем отступ сверху*/
+  	margin: 0; /*убираем отступы*/
+ 	padding-left: 0; /*убираем отступы*/
+ 	margin-top:25px; /*делаем отступ сверху*/
   }
 .menu a {
   
@@ -192,6 +197,8 @@ ul{
    text-align:left;
    margin-right:25px; /*Добавляем отступ у пунктов меню*/
    margin-right: 25px;
+   width: 100%;
+   margin: 5px 15px 1px 15px; 
   }
 
 footer {
@@ -301,20 +308,18 @@ textarea /*изменения боля биографии*/
 
     .menu li{
         margin: 10px;
-		
-		
     }
     .menu a{
         padding:30px;
 		width: 300px;
-
 	}
 
     .block_ss{
         width: 960px;
         margin: 0 auto;
         margin-bottom: 50px;
-		text-align: center
+
+		text-align: center;
     }
     .wrapper{
         width: 960px;
@@ -330,6 +335,7 @@ textarea /*изменения боля биографии*/
     }
     .block_tabl{
         width: 960px;
+
         margin: 0 auto;
         margin-bottom: 50px;
         order:2;
